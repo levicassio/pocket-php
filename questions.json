@@ -222,5 +222,476 @@
     "question": "Qual alternativa representa uma prática mais segura ao inserir dados recebidos de $_POST em um banco de dados?",
     "answer": "Utilizar prepared statements",
     "wrongAnswers": ["Concatenar diretamente os valores dentro do SQL", "Colocar todos os dados em $_SESSION", "Utilizar foreach antes do INSERT"]
+  },
+
+  {
+    "lesson": "WordPress",
+    "topic": "1. CMS e fundamentos",
+    "question": "O que significa a sigla CMS?",
+    "answer": "Content Management System (Sistema de Gerenciamento de Conteúdo)",
+    "wrongAnswers": ["Code Management Server", "Central Media System", "Content Marketing Service"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "1. CMS e fundamentos",
+    "question": "Qual é o principal objetivo de um CMS?",
+    "answer": "Gerenciar conteúdo (criar, editar, organizar e publicar) sem precisar desenvolver tudo manualmente",
+    "wrongAnswers": ["Apenas criar o layout visual de sites", "Substituir o servidor web", "Compilar código PHP"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "1. CMS e fundamentos",
+    "question": "Qual alternativa contém apenas exemplos de CMS?",
+    "answer": "WordPress, Joomla, Drupal",
+    "wrongAnswers": ["WordPress, Apache, MySQL", "Joomla, PHP, XAMPP", "Drupal, phpMyAdmin, MariaDB"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "1. CMS e fundamentos",
+    "question": "Qual das opções NÃO é uma característica típica de um CMS?",
+    "answer": "Executar o código no servidor como linguagem de programação",
+    "wrongAnswers": ["Painel administrativo", "Usuários e permissões", "Revisões e histórico de alterações"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "2. O que é o WordPress",
+    "question": "Quais tecnologias são utilizadas principalmente no desenvolvimento do WordPress?",
+    "answer": "PHP e MySQL/MariaDB",
+    "wrongAnswers": ["Java e Oracle", "Python e MongoDB", "C# e SQL Server"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "2. O que é o WordPress",
+    "question": "Qual é a principal diferença entre WordPress.org e WordPress.com?",
+    "answer": "O .org é um software instalável em servidor com maior controle, e o .com é um serviço hospedado com limitações conforme o plano",
+    "wrongAnswers": ["O .org é pago e o .com é gratuito em todos os casos", "O .com permite instalar qualquer plugin livremente e o .org não", "Não existe diferença entre eles"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "2. O que é o WordPress",
+    "question": "Um aluno vai instalar o WordPress no XAMPP, em seu computador. Qual versão do WordPress ele está utilizando?",
+    "answer": "WordPress.org",
+    "wrongAnswers": ["WordPress.com", "WordPress Cloud", "WordPress Hosted"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "2. O que é o WordPress",
+    "question": "Qual versão do WordPress oferece hospedagem fornecida pela própria plataforma?",
+    "answer": "WordPress.com",
+    "wrongAnswers": ["WordPress.org", "Nenhuma, toda versão exige hospedagem própria", "Apenas o WordPress local"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "3. Ambiente local e XAMPP",
+    "question": "Qual é o fluxo básico para rodar o WordPress em ambiente local?",
+    "answer": "XAMPP → Apache + PHP + MariaDB → WordPress",
+    "wrongAnswers": ["WordPress → XAMPP → Apache → navegador", "Apache → WordPress → XAMPP → PHP", "MariaDB → XAMPP → Apache → HTML"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "3. Ambiente local e XAMPP",
+    "question": "Em qual pasta do XAMPP o WordPress deve ficar para ser acessado em http://localhost/wordpress?",
+    "answer": "xampp/htdocs/",
+    "wrongAnswers": ["xampp/apache/", "xampp/php/", "xampp/mysql/"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "3. Ambiente local e XAMPP",
+    "question": "Qual é a função do XAMPP?",
+    "answer": "Facilitar a criação de um ambiente de desenvolvimento local, reunindo Apache, PHP, MariaDB e phpMyAdmin",
+    "wrongAnswers": ["Substituir o WordPress como CMS", "Publicar automaticamente o site na internet", "Criar temas e plugins automaticamente"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "3. Ambiente local e XAMPP",
+    "question": "Qual é o fluxo simplificado de uma requisição ao WordPress no XAMPP?",
+    "answer": "Navegador → Apache → PHP → WordPress → MariaDB/MySQL",
+    "wrongAnswers": ["Navegador → MariaDB → WordPress → PHP → Apache", "Navegador → WordPress → Apache → MariaDB → PHP", "Apache → Navegador → PHP → MariaDB → WordPress"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "Qual é a função do Apache?",
+    "answer": "Servidor web que recebe requisições HTTP e entrega recursos ao navegador",
+    "wrongAnswers": ["Linguagem de programação executada no servidor", "Banco de dados relacional", "Interface para administrar o banco"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "Qual é a diferença entre Apache e PHP?",
+    "answer": "Apache é o servidor web, e PHP é a linguagem executada no servidor",
+    "wrongAnswers": ["Apache é a linguagem e PHP é o servidor web", "Os dois são o mesmo software", "Apache é o banco de dados e PHP é a interface"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "O que significa dizer que o PHP é uma linguagem server-side?",
+    "answer": "O código é executado no servidor e o navegador recebe o resultado gerado",
+    "wrongAnswers": ["O código PHP é executado diretamente no navegador do usuário", "O código só funciona offline", "O navegador sempre recebe o código PHP original"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "MySQL e MariaDB são classificados como:",
+    "answer": "Sistemas de gerenciamento de banco de dados relacionais (SGBDs)",
+    "wrongAnswers": ["Servidores web", "Linguagens de programação", "Sistemas de gerenciamento de conteúdo"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "Qual alternativa descreve corretamente a relação entre WordPress e o banco de dados?",
+    "answer": "WordPress é a aplicação/CMS e MariaDB/MySQL é o banco de dados utilizado por ela",
+    "wrongAnswers": ["WordPress é o banco de dados da aplicação MySQL", "WordPress e MariaDB são a mesma coisa", "O banco de dados é um plugin do WordPress"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "Qual das informações abaixo é armazenada no banco de dados do WordPress?",
+    "answer": "Posts, páginas, usuários, configurações, comentários, categorias e tags",
+    "wrongAnswers": ["Apenas os arquivos do Apache", "Somente o código PHP do WordPress", "Apenas o servidor web"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "O que é o phpMyAdmin?",
+    "answer": "Uma interface web para administrar bancos de dados MySQL/MariaDB",
+    "wrongAnswers": ["O banco de dados utilizado pelo WordPress", "Um servidor web", "Um plugin de segurança do WordPress"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "Qual das ações abaixo pode ser feita pelo phpMyAdmin?",
+    "answer": "Criar bancos de dados e tabelas, consultar, alterar e excluir dados",
+    "wrongAnswers": ["Executar código PHP como servidor", "Receber requisições HTTP", "Escolher o tema do WordPress"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "4. Apache, PHP e banco de dados",
+    "question": "Qual afirmação sobre o phpMyAdmin está correta?",
+    "answer": "Ele é uma ferramenta para administrar o banco, e não o banco de dados em si",
+    "wrongAnswers": ["Ele é o banco de dados do WordPress", "Ele é o servidor web do XAMPP", "Ele é a linguagem de programação do WordPress"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "5. Painel e configurações",
+    "question": "Qual é o caminho normalmente utilizado para acessar o painel administrativo do WordPress?",
+    "answer": "/wp-admin",
+    "wrongAnswers": ["/wp-content", "/admin-panel", "/wp-includes"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "5. Painel e configurações",
+    "question": "Considerando o WordPress instalado em localhost/wordpress, qual URL leva ao painel administrativo?",
+    "answer": "localhost/wordpress/wp-admin",
+    "wrongAnswers": ["localhost/wp-admin/wordpress", "localhost/wordpress/admin", "localhost/phpmyadmin/wordpress"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "5. Painel e configurações",
+    "question": "Qual das opções é uma configuração geral do WordPress?",
+    "answer": "Título do site, descrição, idioma, fuso horário e formato de data/hora",
+    "wrongAnswers": ["Estrutura da tabela do banco de dados", "Configuração da porta do Apache", "Código-fonte do PHP"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "5. Painel e configurações",
+    "question": "Qual é a função das configurações de Leitura no WordPress?",
+    "answer": "Definir o que aparece na página inicial e quantos posts são exibidos",
+    "wrongAnswers": ["Definir o nível de permissão dos usuários", "Alterar a estrutura do banco de dados", "Instalar novos plugins"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "5. Painel e configurações",
+    "question": "Quais são as duas formas de configurar a página inicial do WordPress?",
+    "answer": "Seus posts mais recentes ou uma página estática",
+    "wrongAnswers": ["Apenas posts recentes", "Apenas página estática", "Categorias ou tags"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "5. Painel e configurações",
+    "question": "Um site institucional quer que a página inicial seja uma página fixa de apresentação, e que os posts fiquem em outra página. Isso é possível?",
+    "answer": "Sim, definindo uma página estática como inicial e outra como página de posts",
+    "wrongAnswers": ["Não, a página inicial sempre deve listar os posts", "Não, só é possível com Custom Post Types", "Sim, mas apenas no WordPress.com"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "6. Links permanentes e slug",
+    "question": "O que definem os links permanentes (permalinks) no WordPress?",
+    "answer": "A estrutura das URLs do site",
+    "wrongAnswers": ["As permissões dos usuários", "A estrutura das tabelas do banco", "O tema visual do site"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "6. Links permanentes e slug",
+    "question": "Qual estrutura de URL é considerada mais amigável?",
+    "answer": "site.com/meu-post",
+    "wrongAnswers": ["site.com/?p=123", "site.com/index.php?id=123", "site.com/?post_type=1"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "6. Links permanentes e slug",
+    "question": "Na URL site.com/curso-wordpress, qual é o slug?",
+    "answer": "curso-wordpress",
+    "wrongAnswers": ["site.com", "site.com/curso-wordpress", "wordpress"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "6. Links permanentes e slug",
+    "question": "Qual afirmação sobre o slug está correta?",
+    "answer": "É a parte da URL que identifica determinado conteúdo, e não a URL inteira",
+    "wrongAnswers": ["É a URL completa do site", "É o nome do banco de dados", "É o título do tema"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "7. Usuários e permissões",
+    "question": "Qual função do WordPress possui o maior nível de controle?",
+    "answer": "Administrador",
+    "wrongAnswers": ["Editor", "Autor", "Assinante"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "7. Usuários e permissões",
+    "question": "Qual função publica e gerencia apenas os seus próprios posts?",
+    "answer": "Autor",
+    "wrongAnswers": ["Editor", "Administrador", "Assinante"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "7. Usuários e permissões",
+    "question": "Qual função cria conteúdo, mas possui limitações para publicá-lo?",
+    "answer": "Colaborador",
+    "wrongAnswers": ["Autor", "Editor", "Administrador"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "7. Usuários e permissões",
+    "question": "Qual função possui poucas permissões no WordPress?",
+    "answer": "Assinante",
+    "wrongAnswers": ["Editor", "Autor", "Administrador"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "7. Usuários e permissões",
+    "question": "Qual função é responsável por gerenciar conteúdos no WordPress?",
+    "answer": "Editor",
+    "wrongAnswers": ["Assinante", "Colaborador", "Nenhuma função gerencia conteúdos"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "7. Usuários e permissões",
+    "question": "O que diz o princípio do menor privilégio?",
+    "answer": "O usuário deve receber somente as permissões necessárias para realizar sua função",
+    "wrongAnswers": ["Todo usuário deve ser administrador para evitar bloqueios", "Usuários não devem ter nenhuma permissão", "Apenas administradores podem existir no sistema"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "7. Usuários e permissões",
+    "question": "Uma pessoa precisa apenas escrever posts para o site. Seguindo o princípio do menor privilégio, qual é a melhor escolha?",
+    "answer": "Atribuir uma função com permissões limitadas, como Autor ou Colaborador",
+    "wrongAnswers": ["Atribuir a função de Administrador", "Compartilhar a senha do administrador", "Dar acesso ao banco de dados pelo phpMyAdmin"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "8. Posts e páginas",
+    "question": "Qual alternativa descreve melhor um post?",
+    "answer": "Conteúdo geralmente dinâmico, com data, que pode usar categorias e tags",
+    "wrongAnswers": ["Conteúdo permanente, sem data e sem categorias", "Um arquivo de configuração do servidor", "Uma tabela do banco de dados"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "8. Posts e páginas",
+    "question": "Qual alternativa descreve melhor uma página?",
+    "answer": "Conteúdo geralmente mais permanente, que normalmente não depende de data nem de categorias/tags",
+    "wrongAnswers": ["Conteúdo cronológico, como notícias", "Conteúdo sempre organizado por tags", "Conteúdo que aparece obrigatoriamente no fluxo de posts"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "8. Posts e páginas",
+    "question": "Uma notícia sobre novidades do WordPress em 2026 deve ser criada como:",
+    "answer": "Post",
+    "wrongAnswers": ["Página", "Plugin", "Tema"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "8. Posts e páginas",
+    "question": "O conteúdo \"Sobre a empresa\" normalmente é criado como:",
+    "answer": "Página",
+    "wrongAnswers": ["Post", "Tag", "Comentário"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "8. Posts e páginas",
+    "question": "Qual das opções é um exemplo típico de página?",
+    "answer": "Contato",
+    "wrongAnswers": ["Artigo de blog", "Notícia do dia", "Post sobre lançamento de produto"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "Para que servem as categorias no WordPress?",
+    "answer": "Organizar posts por assuntos, de forma mais ampla",
+    "wrongAnswers": ["Controlar as permissões dos usuários", "Armazenar versões anteriores do conteúdo", "Definir o idioma do site"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "Qual afirmação sobre categorias está correta?",
+    "answer": "Categorias podem possuir hierarquia (categoria e subcategoria)",
+    "wrongAnswers": ["Categorias nunca podem ter subcategorias", "Categorias servem apenas para páginas", "Categorias não podem ser usadas em posts"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "Qual é a diferença entre categoria e tag?",
+    "answer": "Categoria é uma classificação mais ampla, e tag representa um assunto ou característica mais específica",
+    "wrongAnswers": ["Tag é mais ampla que categoria", "Não existe diferença entre elas", "Categorias servem para páginas e tags para usuários"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "Qual afirmação sobre hierarquia está correta?",
+    "answer": "Categorias podem ter hierarquia, enquanto tags normalmente não possuem",
+    "wrongAnswers": ["Tags possuem hierarquia e categorias não", "Ambas sempre possuem hierarquia", "Nenhuma delas pode ser organizada"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "Um post tem a categoria Tecnologia. Qual conjunto é mais adequado como tags?",
+    "answer": "WordPress, PHP, CMS, Web",
+    "wrongAnswers": ["Tecnologia, Notícias, Geral, Blog", "Administrador, Editor, Autor, Assinante", "Apache, XAMPP, htdocs, wp-admin"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "O que representa o campo Autor em um post?",
+    "answer": "O usuário associado à criação/publicação do conteúdo",
+    "wrongAnswers": ["O nome do tema utilizado", "O banco de dados onde o post está salvo", "A categoria principal do post"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "A data nos posts é particularmente importante para qual tipo de conteúdo?",
+    "answer": "Conteúdos cronológicos, como notícias e artigos",
+    "wrongAnswers": ["Páginas institucionais permanentes", "Configurações do servidor", "Permissões de usuários"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "O que é a imagem destacada?",
+    "answer": "A imagem principal associada ao conteúdo, usada em listagens, cards e temas",
+    "wrongAnswers": ["Qualquer imagem inserida no corpo do texto", "O logotipo do WordPress", "Uma imagem armazenada somente no phpMyAdmin"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "9. Categorias, tags e organização",
+    "question": "Qual afirmação sobre a imagem destacada está correta?",
+    "answer": "Ela não precisa necessariamente estar inserida no corpo do texto",
+    "wrongAnswers": ["Ela sempre deve estar dentro do texto do post", "Ela só pode ser usada em páginas", "Ela substitui o título do post"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "10. Custom Post Types e campos personalizados",
+    "question": "O que é um Custom Post Type (CPT)?",
+    "answer": "Um tipo de conteúdo personalizado, além dos tipos padrão como posts e páginas",
+    "wrongAnswers": ["Um tipo de banco de dados", "Um plugin de segurança", "Uma função de usuário"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "10. Custom Post Types e campos personalizados",
+    "question": "Um site de faculdade precisa organizar Cursos, Professores e Eventos de forma estruturada. Qual recurso é mais adequado?",
+    "answer": "Custom Post Types",
+    "wrongAnswers": ["Apenas posts com tags", "Revisões", "Comentários"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "10. Custom Post Types e campos personalizados",
+    "question": "Quais são os tipos de conteúdo padrão do WordPress mencionados na revisão?",
+    "answer": "Posts e páginas",
+    "wrongAnswers": ["Cursos e professores", "Categorias e tags", "Plugins e temas"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "10. Custom Post Types e campos personalizados",
+    "question": "O que são campos personalizados (Custom Fields)?",
+    "answer": "Recursos que permitem adicionar informações específicas a determinado conteúdo",
+    "wrongAnswers": ["Campos usados apenas para criar usuários", "Tabelas criadas no phpMyAdmin", "Configurações de permalinks"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "10. Custom Post Types e campos personalizados",
+    "question": "Em um CPT chamado Curso, quais informações poderiam ser campos personalizados?",
+    "answer": "Duração, modalidade e campus",
+    "wrongAnswers": ["Porta do Apache e senha do MariaDB", "Função do usuário e fuso horário", "Slug do site e permalink do painel"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "11. Fluxo de publicação, comentários e revisões",
+    "question": "Qual é a sequência típica de estados de um conteúdo antes da publicação?",
+    "answer": "Rascunho → Revisão/pendente → Publicado",
+    "wrongAnswers": ["Publicado → Rascunho → Pendente", "Pendente → Publicado → Rascunho", "Privado → Agendado → Rascunho"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "11. Fluxo de publicação, comentários e revisões",
+    "question": "O que é um conteúdo em estado de rascunho?",
+    "answer": "Conteúdo ainda não publicado",
+    "wrongAnswers": ["Conteúdo já visível a todos", "Conteúdo excluído permanentemente", "Conteúdo programado para uma data futura"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "11. Fluxo de publicação, comentários e revisões",
+    "question": "O que acontece com um conteúdo agendado?",
+    "answer": "Será publicado automaticamente em uma data e hora definidas",
+    "wrongAnswers": ["Fica sempre como rascunho", "Só é publicado manualmente pelo administrador", "É excluído após a data definida"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "11. Fluxo de publicação, comentários e revisões",
+    "question": "O que caracteriza um conteúdo privado?",
+    "answer": "Conteúdo restrito conforme as regras de visibilidade",
+    "wrongAnswers": ["Conteúdo disponível para qualquer visitante", "Conteúdo ainda em rascunho", "Conteúdo que não existe no banco de dados"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "11. Fluxo de publicação, comentários e revisões",
+    "question": "O que permite a moderação de comentários?",
+    "answer": "Controlar os comentários antes que sejam exibidos publicamente",
+    "wrongAnswers": ["Impedir que o banco de dados armazene comentários", "Transformar comentários em posts", "Alterar o slug dos posts"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "11. Fluxo de publicação, comentários e revisões",
+    "question": "Para que servem as revisões no WordPress?",
+    "answer": "Consultar alterações, comparar versões e recuperar conteúdo anterior",
+    "wrongAnswers": ["Aprovar comentários", "Criar novos usuários", "Definir a estrutura dos permalinks"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "11. Fluxo de publicação, comentários e revisões",
+    "question": "Um editor alterou um post várias vezes e quer voltar a uma versão anterior. Qual recurso deve utilizar?",
+    "answer": "Revisões",
+    "wrongAnswers": ["Tags", "Imagem destacada", "Custom Fields"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "12. Arquitetura de conteúdo",
+    "question": "O que é arquitetura de conteúdo?",
+    "answer": "A maneira como o conteúdo do site é estruturado e organizado",
+    "wrongAnswers": ["A estrutura física do servidor", "O código-fonte do PHP", "A configuração do banco de dados"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "12. Arquitetura de conteúdo",
+    "question": "Quais elementos podem fazer parte da arquitetura de conteúdo de um site WordPress?",
+    "answer": "Posts, categorias, tags, páginas, CPTs, campos personalizados e mídia",
+    "wrongAnswers": ["Apenas posts e comentários", "Somente páginas e temas", "Apenas Apache, PHP e MariaDB"]
+  },
+  {
+    "lesson": "WordPress",
+    "topic": "12. Arquitetura de conteúdo",
+    "question": "Qual é um benefício de uma boa arquitetura de conteúdo?",
+    "answer": "Facilita navegação, organização, busca, manutenção e experiência do usuário",
+    "wrongAnswers": ["Elimina a necessidade de banco de dados", "Substitui o painel administrativo", "Impede o uso de plugins"]
   }
 ]
+
